@@ -5,3 +5,12 @@
 h1 {
     font-family: 'Roboto', sans-serif;
 }
+
+.summary > img {
+    float: left;
+    padding: 0 25px 25px 0;
+}
+
+.summary > hr {
+    clear: both;
+}
