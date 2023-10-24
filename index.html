@@ -13,17 +13,19 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="header">
+    <header id="header">
       <h1>Dylan Villanueva</h1>
-    </div>
+    </header>
 
-    <div class="summary">
-      <img
+    <section id="summary">
+      <div class="summary-left">
+        <img
         src="./assets/images/profile-photo.jpg"
         alt="profile photo"
-        height="300"
+        class="summary-image"
       />
-      <div class="summary-text">
+      </div>
+      <div class="summary-right">
         <h2>Summary</h2>
         <p>
           As a web developer, I excel in problem-solving, a crucial skill in
@@ -34,84 +36,55 @@
           personal pursuits, and ongoing learning initiatives.
         </p>
       </div>
-    </div>
+    </section>
 
-    <div class="about">
-      <div class="left">
+    <section id="about">
+      <div class="about-left">
         <div class="education">
           <h2>Education</h2>
           <ul>
-            <li>Tarrant County College (TCC)</li>
+            <li class="bold1">Tarrant County College (TCC)</li>
             <p>Fort Worth, TX | 2014</p>
-            <li>Howard Payne University (HPU)</li>
-            <p>Brownwood, TX | 2012-2013</p>
+            <li class="bold1">Howard Payne University (HPU)</li>
+            <p>Brownwood, TX | 2012-13</p>
           </ul>
         </div>
+      </div>
+
+      <div class="about-middle">
         <div class="skills">
           <h2>Skills</h2>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML/CSS</li>
+            <li>Responsive Design</li>
+            <li>Bootstrap</li>
+            <li>UI/UX Design Principles</li>
+            <li>JavaScript</li>
           </ul>
         </div>
       </div>
-      <div class="right">
+
+      <div class="about-right">
         <h2>Work Experience</h2>
         <ul>
-          <li>April 2021 - Current</li>
+          <li>March 2021 - Current</li>
           <ul>
-            <li>Self-Employed - Driver</li>
-          </ul>
-          <li>May 2022 - November 2022</li>
-          <ul>
-            <li>ReconMR - Telephone Interviewer</li>
-          </ul>
-          <li>September 2020 - March 2021</li>
-          <ul>
-            <li>Transcom - Technical Support Advisor</li>
+            <li><span class="bold2">Self-Employed</span> - Driver</li>
           </ul>
           <li>January 2015 - August 2020</li>
           <ul>
-            <li>Pizza Hut - Restaurant General Manager</li>
-          </ul>
-          <li>June 2015 - August 2015</li>
-          <ul>
-            <li>Heart of Texas Baptist Encampment - Lifeguard (Seasonal)</li>
+            <li><span class="bold2">Pizza Hut</span> - Restaurant General Manager</li>
           </ul>
           <li>May 2014 - May 2015</li>
           <ul>
-            <li>Holiday Inn Express - Front Desk/Night Auditor</li>
-          </ul>
-          <li>January 2014 - April 2014</li>
-          <ul>
-            <li>Chili's - Host</li>
-            <li>
-              Hasting's Entertainment - Customer Service Representative
-              (Seasonal)
-            </li>
-          </ul>
-          <li>May 2013 - August 2013</li>
-          <ul>
-            <li>
-              Primera Iglesia Bautista Mexicana - Youth Minister (Seasonal)
-            </li>
-            <li>Bealls - Sales Associate</li>
-          </ul>
-          <li>June 2012 - June 2012</li>
-          <ul>
-            <li>Azle ISD - Soccer Coach (Seasonal)</li>
+            <li><span class="bold2">Holiday Inn Express</span> - Front Desk/Night Auditor</li>
           </ul>
         </ul>
       </div>
-    </div>
+    </section>
 
-    <div class="links">
-      <a href="./public/hobbies.html">Hobbies</a>
-      <a href="./public/contact.html">Contact Me</a>
-    </div>
-
-    <footer>
-      <p>© 2023 Dylan Villanueva</p>
+    <footer id="footer">
+      <p class="copyright-text">© 2023 Dylan Villanueva</p>
     </footer>
   </body>
 </html>
